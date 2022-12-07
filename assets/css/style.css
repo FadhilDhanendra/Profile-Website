@@ -85,7 +85,7 @@ img{
     color: #fff;
 }
 
-.navbar .nav-link :hover{
+.navbar .nav-link:hover{
     color: var(--color-brand);
 }
 
@@ -102,7 +102,7 @@ img{
         background-position: center;
     }
     .navbar-brand img{
-        border: 8px solid var(--color-brand);
+        border: 5px solid var(--color-brand);
     }
 
     /* Content */
