@@ -3,10 +3,10 @@
 :root{
     --color-body: #b6cbce;
     --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-base: #1e3358;
+    --color-base2: #172236;
+    --color-brand: #00f3ff;
+    --color-brand2: #5cf5fd;
     --sidbar-width: 240px;
     --font-base: "Bai jamjuree";
 }
@@ -97,7 +97,7 @@ img{
     .navbar{
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.7), rgba(3, 63, 71, 0.9)), url(../images/1.jpg);
+        background: linear-gradient(rgba(30, 51, 88, .9), rgba(30, 51, 88, .9)), url(../images/1.jpg);
         background-size: cover;
         background-position: center;
     }
