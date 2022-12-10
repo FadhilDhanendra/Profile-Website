@@ -93,6 +93,12 @@ img{
     color: var(--color-brand);
 }
 
+@media (max-width: 993px) { 
+    .navbar{
+        display:none;
+    }
+}
+
 @media (min-width: 992px){
     .navbar{
         min-height: 100vh;
@@ -103,6 +109,10 @@ img{
     }
     .navbar-brand img{
         border: 5px solid var(--color-brand);
+    }
+    
+    .footermenu{
+        display: none;
     }
 
     /* Content */
@@ -150,6 +160,18 @@ img{
     width: 100%;
 }
 
+@media (min-width: 500px) { 
+    .spacing{
+        display: none;
+    }
+}
+
+@media(max-width: 499px){
+    .space{
+        display: none;
+    }
+}
+
 /* Card */
 .card-custom .card-custom-image{
     overflow: hidden;
@@ -161,6 +183,11 @@ img{
 
 .card-custom:hover .card-custom-image img{
     transform: scale(1.1);
+}
+
+.languageicon{
+    width: 20px;
+    height: 20px;
 }
 
 /* Contact */
@@ -181,6 +208,35 @@ img{
 
 #contact input.form-control{
     height: 44px;
+}
+
+.footermenu{
+	width: 100%;
+	height: auto;
+	margin: auto;
+    margin-bottom: 15px;
+}
+
+.footermenu ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footermenu ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.footermenu ul li a{
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.footermenu ul li a:hover{
+	color: var(--color-brand);
 }
 
 /* Social Icons */
